@@ -1,23 +1,30 @@
 .Body {
-    color: red;
-    background-color: antiquewhite;
-    border-radius: 1%;
+  color: #ffeae5;
+  border-radius: 2%;
+  width: 50%;
+  max-width: 50%;
+  background: #002b33;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-    text-align: left;
-    padding-left: 5%;
-    padding-top: 2.5%;
-    font-size: 2em;
-    letter-spacing: .1em;
+.header {
+  padding-top: 2.5%;
+  font-size: 2em;
+  margin-bottom: 1px;
 }
 
 .image {
-    width: 50%;
-    align-items: right;
+  max-width: 100%;
+  border-radius: 2%;
 }
 
 .grid-container {
-    display: grid;
-    background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: left;
 }
