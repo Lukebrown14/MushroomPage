@@ -1,8 +1,15 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Three equal-width columns */
+  grid-gap: 4%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 70px;
 }
 
 .grid-item {
   text-align: center;
+  background: antiquewhite;
+  height: 195px;
+  border-radius: 20px;
 }
